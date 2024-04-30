@@ -1,0 +1,24 @@
+body {
+    padding: 2rem;
+    text-align: center;
+}
+
+h1 {
+    color: #000;
+}
+
+#game {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    align-items: baseline;
+}
+
+#your-choice, #comp-choice {
+    width: 6rem;
+    height: 6rem;
+    border: solid 3px #000;
+    border-radius: 3rem;
+    font-size: 4rem;
+    line-height: 7rem;
+}
