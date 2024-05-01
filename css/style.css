@@ -22,3 +22,45 @@ h1 {
     font-size: 4rem;
     line-height: 7rem;
 }
+
+label {
+    font-size: 4rem;
+
+}
+
+#R-R:checked ~ #game #your-choice::before,
+#R-P:checked ~ #game #your-choice::before,
+#R-S:checked ~ #game #your-choice::before
+{
+    content: "R";
+}
+
+#P-R:checked ~ #game #your-choice::before,
+#P-P:checked ~ #game #your-choice::before,
+#P-S:checked ~ #game #your-choice::before {
+    content: "P";
+}
+
+#S-R:checked ~ #game #your-choice::before,
+#S-P:checked ~ #game #your-choice::before,
+#S-S:checked ~ #game #your-choice::before {
+    content: "S";
+}
+
+#R-R:checked ~ #game #comp-choice::before,
+#P-R:checked ~ #game #comp-choice::before,
+#S-R:checked ~ #game #comp-choice::before {
+    content: "R";
+}
+
+#R-P:checked ~ #game #comp-choice::before,
+#P-P:checked ~ #game #comp-choice::before,
+#S-P:checked ~ #game #comp-choice::before {
+    content: "P";
+}
+
+#R-S:checked ~ #game #comp-choice::before,
+#P-S:checked ~ #game #comp-choice::before,
+#S-S:checked ~ #game #comp-choice::before {
+    content: "S";
+}
